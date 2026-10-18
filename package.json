@@ -1,0 +1,18 @@
+{
+  "name": "kiosco",
+  "version": "1.0.0",
+  "description": "Sistema de gestión para kiosco: punto de venta, stock, caja, compras y reportes",
+  "private": true,
+  "scripts": {
+    "instalar": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "db:setup": "npm run db:setup --prefix backend",
+    "db:reset": "npm run db:reset --prefix backend",
+    "db:migrar": "npm run db:migrar --prefix backend",
+    "start": "npm start --prefix backend",
+    "dev:api": "npm run dev --prefix backend",
+    "dev:web": "npm run dev --prefix frontend",
+    "instalador": "node instalador/construir.js",
+    "licencia": "node herramientas/generar-licencia.js"
+  }
+}

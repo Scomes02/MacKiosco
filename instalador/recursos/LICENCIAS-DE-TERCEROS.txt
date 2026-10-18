@@ -1,0 +1,20 @@
+MacKiosco incluye los siguientes programas de terceros, cada uno bajo su propia licencia:
+
+MySQL Community Server 8.0
+  (c) Oracle y sus afiliados. Licencia: GNU General Public License, version 2 (GPLv2).
+  Se distribuye sin modificaciones, como programa independiente que MacKiosco utiliza
+  a traves de su protocolo de red. Codigo fuente: https://dev.mysql.com/downloads/mysql/
+
+Node.js
+  (c) Colaboradores de Node.js. Licencia MIT.
+  https://nodejs.org
+
+Bibliotecas de Node.js usadas por la aplicacion (carpeta app\backend\node_modules):
+  express, mysql2, zod, bcryptjs, jsonwebtoken, helmet, cookie-parser, express-rate-limit,
+  dotenv, node-forge, fast-xml-parser y sus dependencias. Cada una incluye su archivo de
+  licencia (en su mayoria MIT, BSD o Apache 2.0) dentro de su propia carpeta.
+
+Bibliotecas de la interfaz: React, React Router, lucide-react y qrcode (licencias MIT / ISC).
+
+Bibliotecas de ejecucion de Microsoft Visual C++ (vcruntime140.dll, msvcp140.dll y relacionadas),
+redistribuidas junto a MySQL segun los terminos de redistribucion de Microsoft.

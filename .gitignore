@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (contienen credenciales: nunca se suben a Git)
+.env
+.env.local
+.env.*.local
+
+# Clave privada y certificados de ARCA (son secretos: nunca se suben a Git)
+backend/certs/
+
+# Clave privada para firmar licencias y registro de licencias emitidas (solo del fabricante)
+licencias/
+
+# Copias de seguridad de la base, registros y estado local
+backups/
+backend/backups/
+backend/logs/
+backend/estado-licencia.json
+
+# Archivos intermedios y resultado del instalador
+instalador/paquete/
+instalador/salida/
+
+# Build del frontend
+frontend/dist/
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Instalador comprimido (binario pesado)
+instalador.rar
+
+# Configuración local del asistente
+.claude/
+
+# Capturas del sistema de referencia: contienen datos reales de clientes
+docs/referencia/
